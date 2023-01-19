@@ -16,7 +16,7 @@ use Auth;
 
 //----------------------------------------------------------
 
-interface Payment_Interface
+interface GatewayInterface
 {
     public function payNow();
 }
